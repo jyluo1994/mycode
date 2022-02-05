@@ -1,1 +1,1 @@
-git add . && git commit -m '更新' && git push origin master
+git add . && eval $(ssh-agent) && ssh-add ~/.ssh/id_rsa_desktop && git commit -m '更新' && git push origin master
